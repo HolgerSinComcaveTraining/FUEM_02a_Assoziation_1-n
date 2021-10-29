@@ -6,7 +6,8 @@ public class App {
 
       Customer customer = new Customer(1, "Maxine Mütze", "Mützenhausen");  
       customer.addOrder(1, "Reparatur",3);
-      customer.addOrder(2, "Einkauf", 1);
+      customer.addOrder(2, "Einkauf", 3);
+      customer.addOrder(3, "Werbung", 3);
 
     }
 
